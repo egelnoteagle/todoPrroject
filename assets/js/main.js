@@ -18,3 +18,7 @@ $("input[type='text']").keypress(function(e) {
     $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>");
   }
 });
+
+$(".fa-pencil-square-o").click(function() {
+  $("input[type='text']").fadeToggle();
+});
